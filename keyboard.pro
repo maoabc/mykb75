@@ -1,28 +1,8 @@
-update=Sun 01 May 2016 11:31:22 PM CEST
+update=2017年12月17日 星期日 19时28分51秒
 version=1
 last_client=kicad
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=lib
-NetFmtName=Pcbnew
-HPGLSpd=20
-HPGLDm=15
-HPGLNum=1
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
-[eeschema/libraries]
-LibName1=power
-LibName2=mx1a-simple
-LibName3=aker
-LibName4=atmega32u4
-LibName5=dtsjw
-LibName6=oupiin_usb
-LibName7=device
-LibName8=conn
 [cvpcb]
 version=1
 NetIExt=net
@@ -69,3 +49,16 @@ NetFmtName=
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=60
+[eeschema]
+version=1
+LibDir=lib
+[eeschema/libraries]
+LibName1=power
+LibName2=mx1a-simple
+LibName3=aker
+LibName4=atmega32u4
+LibName5=dtsjw
+LibName6=oupiin_usb
+LibName7=device
+LibName8=conn
+LibName9=/home/mao/usb-type-c-kicad-lib/usb-type-c
