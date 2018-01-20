@@ -1,0 +1,323 @@
+* /home/mao/mykb75/keyboard.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 2018年01月17日 星期三 20时07分40秒
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+X1  Net-_C1-Pad1_ GND Net-_C2-Pad1_ GND ASX3F		
+R4  VCC /~RES~ 10k		
+R3  Net-_IC1-Pad33_ GND 10k		
+C3  Net-_C3-Pad1_ GND 1u		
+R2  Net-_IC1-Pad4_ /usb_type_c/D+ 22		
+R1  Net-_IC1-Pad3_ /usb_type_c/D- 22		
+C7  VCC GND 100n		
+C6  VCC GND 100n		
+C5  VCC GND 100n		
+C4  VCC GND 100n		
+C2  Net-_C2-Pad1_ GND 22p		
+C1  Net-_C1-Pad1_ GND 22p		
+IC1  /col3 VCC Net-_IC1-Pad3_ Net-_IC1-Pad4_ GND Net-_C3-Pad1_ VCC ? /SCK /MOSI /MISO /col9 /~RES~ VCC GND Net-_C1-Pad1_ Net-_C2-Pad1_ ? /row5 /data /row6 /clk GND VCC /col7 /col13 /col12 /col11 /col10 /col6 /col5 /col4 Net-_IC1-Pad33_ VCC GND /col2 /col1 /row4 /row3 /row2 /row1 ? GND VCC ATMEGA32U4		
+S0  GND ? /~RES~ ? DTSM-6		
+P1  /MISO CONN_1		
+P3  /SCK CONN_1		
+P5  /~RES~ CONN_1		
+P2  VCC CONN_1		
+P4  /MOSI CONN_1		
+P6  GND CONN_1		
+C8  VCC GND 1u		
+P18  /Leds/lrow1 CONN_1		
+P19  /Leds/lrow2 CONN_1		
+P20  /Leds/lrow3 CONN_1		
+P21  /Leds/lrow4 CONN_1		
+P22  /Leds/lrow5 CONN_1		
+P23  /Leds/lcol1 CONN_1		
+P24  /Leds/lcol2 CONN_1		
+P25  /Leds/lcol3 CONN_1		
+P26  /Leds/lcol4 CONN_1		
+P27  /Leds/lcol5 CONN_1		
+P28  /Leds/lcol6 CONN_1		
+P29  /Leds/lcol7 CONN_1		
+P30  /Leds/lcol8 CONN_1		
+P31  /Leds/lcol9 CONN_1		
+P32  /Leds/lcol10 CONN_1		
+P33  /Leds/lcol11 CONN_1		
+P34  /Leds/lcol12 CONN_1		
+P35  /Leds/lcol13 CONN_1		
+P36  /Leds/lcol14 CONN_1		
+P12  GND CONN_1		
+P10  /row3 CONN_1		
+P9  /row4 CONN_1		
+P8  /col1 CONN_1		
+P7  /col2 CONN_1		
+P11  VCC CONN_1		
+TP_J1  /data /rst /btn1 /btn2 /btn3 /clk GND VCC CONN_8		
+R_TP3  /rst GND 100k		
+C_TP1  VCC /rst 2.2uf		
+R_TP1  VCC /clk 4.7k		
+R_TP2  /data VCC 4.7k		
+TP_J2  /btn3 /btn2 /btn1 GND CONN_4		
+P37  /Leds/lrow6 CONN_1		
+* Sheet Name: /Matrix/
+S01  /row2 Net-_D01-Pad2_ MX1A		
+S06  /row2 Net-_D06-Pad2_ MX1A		
+S11  /row2 Net-_D11-Pad2_ MX1A		
+S16  /row2 Net-_D16-Pad2_ MX1A		
+S21  /row2 Net-_D21-Pad2_ MX1A		
+S26  /row2 Net-_D26-Pad2_ MX1A		
+S36  /row2 Net-_D36-Pad2_ MX1A		
+S46  /row2 Net-_D46-Pad2_ MX1A		
+S51  /row2 Net-_D51-Pad2_ MX1A		
+S56  /row2 Net-_D56-Pad2_ MX1A		
+S61  /row2 Net-_D61-Pad2_ MX1A		
+S66  /row2 Net-_D66-Pad2_ MX1A		
+S02  /row3 Net-_D02-Pad2_ MX1A		
+S07  /row3 Net-_D07-Pad2_ MX1A		
+S12  /row3 Net-_D12-Pad2_ MX1A		
+S17  /row3 Net-_D17-Pad2_ MX1A		
+S22  /row3 Net-_D22-Pad2_ MX1A		
+S27  /row3 Net-_D27-Pad2_ MX1A		
+S32  /row3 Net-_D32-Pad2_ MX1A		
+S37  /row3 Net-_D37-Pad2_ MX1A		
+S42  /row3 Net-_D42-Pad2_ MX1A		
+S47  /row3 Net-_D47-Pad2_ MX1A		
+S52  /row3 Net-_D52-Pad2_ MX1A		
+S57  /row3 Net-_D57-Pad2_ MX1A		
+S62  /row3 Net-_D62-Pad2_ MX1A		
+S67  /row3 Net-_D67-Pad2_ MX1A		
+S03  /row4 Net-_D03-Pad2_ MX1A		
+S08  /row4 Net-_D08-Pad2_ MX1A		
+S13  /row4 Net-_D13-Pad2_ MX1A		
+S18  /row4 Net-_D18-Pad2_ MX1A		
+S23  /row4 Net-_D23-Pad2_ MX1A		
+S28  /row4 Net-_D28-Pad2_ MX1A		
+S33  /row4 Net-_D33-Pad2_ MX1A		
+S38  /row4 Net-_D38-Pad2_ MX1A		
+S43  /row4 Net-_D43-Pad2_ MX1A		
+S48  /row4 Net-_D48-Pad2_ MX1A		
+S53  /row4 Net-_D53-Pad2_ MX1A		
+S58  /row4 Net-_D58-Pad2_ MX1A		
+S09  /row5 Net-_D09-Pad2_ MX1A		
+S14  /row5 Net-_D14-Pad2_ MX1A		
+S24  /row5 Net-_D24-Pad2_ MX1A		
+S29  /row5 Net-_D29-Pad2_ MX1A		
+S34  /row5 Net-_D34-Pad2_ MX1A		
+S39  /row5 Net-_D39-Pad2_ MX1A		
+S44  /row5 Net-_D44-Pad2_ MX1A		
+S49  /row5 Net-_D49-Pad2_ MX1A		
+S54  /row5 Net-_D54-Pad2_ MX1A		
+S59  /row5 Net-_D59-Pad2_ MX1A		
+S69  /row5 Net-_D69-Pad2_ MX1A		
+S05  /row6 Net-_D05-Pad2_ MX1A		
+S10  /row6 Net-_D10-Pad2_ MX1A		
+S15  /row6 Net-_D15-Pad2_ MX1A		
+S55  /row6 Net-_D55-Pad2_ MX1A		
+S60  /row6 Net-_D60-Pad2_ MX1A		
+S65  /row6 Net-_D65-Pad2_ MX1A		
+S70  /row6 Net-_D70-Pad2_ MX1A		
+S641  /row5 Net-_D64-Pad2_ MX1A		
+S0512  /row6 Net-_D05-Pad2_ MX1A		
+S102  /row6 Net-_D10-Pad2_ MX1A		
+S101  /row6 Net-_D10-Pad2_ MX1A		
+S552  /row6 Net-_D55-Pad2_ MX1A		
+S602  /row6 Net-_D60-Pad2_ MX1A		
+S151  /row6 Net-_D15-Pad2_ MX1A		
+S6512  /row6 Net-_D65-Pad2_ MX1A		
+S7012  /row6 Net-_D70-Pad2_ MX1A		
+S301  /row6 Net-_D30-Pad2_ MX1A		
+S302  /row6 Net-_D30-Pad2_ MX1A		
+S041  /row5 Net-_D04-Pad2_ MX1A		
+S64  Net-_D64-Pad2_ /row5 MX1A		
+S04  /row5 Net-_D04-Pad2_ MX1A		
+S68  /row4 Net-_D68-Pad2_ MX1A		
+S30  /row6 Net-_D30-Pad2_ MX1A		
+S031  Net-_D03-Pad2_ /row4 MX1A		
+DC1  VCC Net-_DC1-Pad2_ LED		
+DC2  VCC Net-_DC1-Pad2_ LED		
+R-CAP1  Net-_DC1-Pad2_ /MOSI 300		
+S41  /row2 Net-_D41-Pad2_ MX1A		
+S31  /row2 Net-_D31-Pad2_ MX1A		
+S691  Net-_D69-Pad2_ /row5 MX1A		
+S692  /row5 Net-_D69-Pad2_ MX1A		
+D06  /col2 Net-_D06-Pad2_ 1N4148		
+D11  /col3 Net-_D11-Pad2_ 1N4148		
+D02  /col1 Net-_D02-Pad2_ 1N4148		
+D04  /col1 Net-_D04-Pad2_ 1N4148		
+D07  /col2 Net-_D07-Pad2_ 1N4148		
+D08  /col2 Net-_D08-Pad2_ 1N4148		
+D12  /col3 Net-_D12-Pad2_ 1N4148		
+D13  /col3 Net-_D13-Pad2_ 1N4148		
+D09  /col2 Net-_D09-Pad2_ 1N4148		
+D14  /col3 Net-_D14-Pad2_ 1N4148		
+D26  /col6 Net-_D26-Pad2_ 1N4148		
+D27  /col6 Net-_D27-Pad2_ 1N4148		
+D28  /col6 Net-_D28-Pad2_ 1N4148		
+D29  /col6 Net-_D29-Pad2_ 1N4148		
+S19  /row5 Net-_D19-Pad2_ MX1A		
+D16  /col4 Net-_D16-Pad2_ 1N4148		
+D17  /col4 Net-_D17-Pad2_ 1N4148		
+D18  /col4 Net-_D18-Pad2_ 1N4148		
+D19  /col4 Net-_D19-Pad2_ 1N4148		
+D21  /col5 Net-_D21-Pad2_ 1N4148		
+D31  /col7 Net-_D31-Pad2_ 1N4148		
+D01  /col1 Net-_D01-Pad2_ 1N4148		
+D23  /col5 Net-_D23-Pad2_ 1N4148		
+D33  /col7 Net-_D33-Pad2_ 1N4148		
+D32  /col7 Net-_D32-Pad2_ 1N4148		
+D36  /SCK Net-_D36-Pad2_ 1N4148		
+D41  /col9 Net-_D41-Pad2_ 1N4148		
+D37  /SCK Net-_D37-Pad2_ 1N4148		
+D38  /SCK Net-_D38-Pad2_ 1N4148		
+D22  /col5 Net-_D22-Pad2_ 1N4148		
+D43  /col9 Net-_D43-Pad2_ 1N4148		
+D42  /col9 Net-_D42-Pad2_ 1N4148		
+D46  /col10 Net-_D46-Pad2_ 1N4148		
+D47  /col10 Net-_D47-Pad2_ 1N4148		
+D51  /col11 Net-_D51-Pad2_ 1N4148		
+D52  /col11 Net-_D52-Pad2_ 1N4148		
+D48  /col10 Net-_D48-Pad2_ 1N4148		
+D44  /col9 Net-_D44-Pad2_ 1N4148		
+D49  /col10 Net-_D49-Pad2_ 1N4148		
+D54  /col11 Net-_D54-Pad2_ 1N4148		
+D59  /col12 Net-_D59-Pad2_ 1N4148		
+D64  /col13 Net-_D64-Pad2_ 1N4148		
+D69  /MISO Net-_D69-Pad2_ 1N4148		
+D70  /MISO Net-_D70-Pad2_ 1N4148		
+D65  /col13 Net-_D65-Pad2_ 1N4148		
+D60  /col12 Net-_D60-Pad2_ 1N4148		
+D55  /col11 Net-_D55-Pad2_ 1N4148		
+D68  /MISO Net-_D68-Pad2_ 1N4148		
+D58  /col12 Net-_D58-Pad2_ 1N4148		
+D53  /col11 Net-_D53-Pad2_ 1N4148		
+D67  /MISO Net-_D67-Pad2_ 1N4148		
+D62  /col13 Net-_D62-Pad2_ 1N4148		
+D57  /col12 Net-_D57-Pad2_ 1N4148		
+D66  /MISO Net-_D66-Pad2_ 1N4148		
+D61  /col13 Net-_D61-Pad2_ 1N4148		
+D56  /col12 Net-_D56-Pad2_ 1N4148		
+D24  /col5 Net-_D24-Pad2_ 1N4148		
+D34  /col7 Net-_D34-Pad2_ 1N4148		
+D39  /SCK Net-_D39-Pad2_ 1N4148		
+D05  /col1 Net-_D05-Pad2_ 1N4148		
+D10  /col2 Net-_D10-Pad2_ 1N4148		
+D15  /col3 Net-_D15-Pad2_ 1N4148		
+D30  /col6 Net-_D30-Pad2_ 1N4148		
+D03  /col1 Net-_D03-Pad2_ 1N4148		
+DC3  VCC Net-_DC1-Pad2_ LED		
+S601  /row6 Net-_D60-Pad2_ MX1A		
+S661  /row2 Net-_D66-Pad2_ MX1A		
+S50  /row6 Net-_D50-Pad2_ MX1A		
+D50  /col10 Net-_D50-Pad2_ 1N4148		
+S71  /row1 Net-_D71-Pad2_ MX1A		
+D71  /col1 Net-_D71-Pad2_ 1N4148		
+S72  /row1 Net-_D72-Pad2_ MX1A		
+D72  /col2 Net-_D72-Pad2_ 1N4148		
+S73  /row1 Net-_D73-Pad2_ MX1A		
+D73  /col3 Net-_D73-Pad2_ 1N4148		
+S74  /row1 Net-_D74-Pad2_ MX1A		
+D74  /col4 Net-_D74-Pad2_ 1N4148		
+S76  /row1 Net-_D76-Pad2_ MX1A		
+D76  /col6 Net-_D76-Pad2_ 1N4148		
+S75  /row1 Net-_D75-Pad2_ MX1A		
+D75  /col5 Net-_D75-Pad2_ 1N4148		
+S77  /row1 Net-_D77-Pad2_ MX1A		
+D77  /col7 Net-_D77-Pad2_ 1N4148		
+S78  /row1 Net-_D78-Pad2_ MX1A		
+D78  /SCK Net-_D78-Pad2_ 1N4148		
+S79  /row1 Net-_D79-Pad2_ MX1A		
+D79  /col9 Net-_D79-Pad2_ 1N4148		
+S80  /row1 Net-_D80-Pad2_ MX1A		
+D80  /col10 Net-_D80-Pad2_ 1N4148		
+S81  /row1 Net-_D81-Pad2_ MX1A		
+D81  /col11 Net-_D81-Pad2_ 1N4148		
+S82  /row1 Net-_D82-Pad2_ MX1A		
+D82  /col12 Net-_D82-Pad2_ 1N4148		
+S83  /row1 Net-_D83-Pad2_ MX1A		
+D83  /col13 Net-_D83-Pad2_ 1N4148		
+S84  /row1 Net-_D84-Pad2_ MX1A		
+D84  /MISO Net-_D84-Pad2_ 1N4148		
+* Sheet Name: /Leds/
+DB21  /Leds/lcol5 /Leds/lrow1 LED		
+DB26  /Leds/lcol6 /Leds/lrow1 LED		
+DB31  /Leds/lcol7 /Leds/lrow1 LED		
+DB36  /Leds/lcol8 /Leds/lrow1 LED		
+DB06  /Leds/lcol2 /Leds/lrow1 LED		
+DB11  /Leds/lcol3 /Leds/lrow1 LED		
+DB16  /Leds/lcol4 /Leds/lrow1 LED		
+DB61  /Leds/lcol13 /Leds/lrow1 LED		
+DB66  /Leds/lcol14 /Leds/lrow1 LED		
+DB41  /Leds/lcol9 /Leds/lrow1 LED		
+DB46  /Leds/lcol10 /Leds/lrow1 LED		
+DB51  /Leds/lcol11 /Leds/lrow1 LED		
+DB56  /Leds/lcol12 /Leds/lrow1 LED		
+DB22  /Leds/lcol5 /Leds/lrow2 LED		
+DB27  /Leds/lcol6 /Leds/lrow2 LED		
+DB32  /Leds/lcol7 /Leds/lrow2 LED		
+DB37  /Leds/lcol8 /Leds/lrow2 LED		
+DB02  /Leds/lcol1 /Leds/lrow2 LED		
+DB07  /Leds/lcol2 /Leds/lrow2 LED		
+DB17  /Leds/lcol4 /Leds/lrow2 LED		
+DB62  /Leds/lcol13 /Leds/lrow2 LED		
+DB67  /Leds/lcol14 /Leds/lrow2 LED		
+DB42  /Leds/lcol9 /Leds/lrow2 LED		
+DB47  /Leds/lcol10 /Leds/lrow2 LED		
+DB52  /Leds/lcol11 /Leds/lrow2 LED		
+DB57  /Leds/lcol12 /Leds/lrow2 LED		
+DB23  /Leds/lcol5 /Leds/lrow3 LED		
+DB28  /Leds/lcol6 /Leds/lrow3 LED		
+DB33  /Leds/lcol7 /Leds/lrow3 LED		
+DB38  /Leds/lcol8 /Leds/lrow3 LED		
+DB68  /Leds/lcol14 /Leds/lrow3 LED		
+DB43  /Leds/lcol9 /Leds/lrow3 LED		
+DB48  /Leds/lcol10 /Leds/lrow3 LED		
+DB53  /Leds/lcol11 /Leds/lrow3 LED		
+DB58  /Leds/lcol12 /Leds/lrow3 LED		
+DB24  /Leds/lcol5 /Leds/lrow4 LED		
+DB29  /Leds/lcol6 /Leds/lrow4 LED		
+DB34  /Leds/lcol7 /Leds/lrow4 LED		
+DB39  /Leds/lcol8 /Leds/lrow4 LED		
+DB04  /Leds/lcol1 /Leds/lrow4 LED		
+DB09  /Leds/lcol2 /Leds/lrow4 LED		
+DB14  /Leds/lcol3 /Leds/lrow4 LED		
+DB19  /Leds/lcol4 /Leds/lrow4 LED		
+DB44  /Leds/lcol9 /Leds/lrow4 LED		
+DB49  /Leds/lcol10 /Leds/lrow4 LED		
+DB54  /Leds/lcol11 /Leds/lrow4 LED		
+DB59  /Leds/lcol12 /Leds/lrow4 LED		
+DB05  /Leds/lcol1 /Leds/lrow5 LED		
+DB10  /Leds/lcol2 /Leds/lrow5 LED		
+DB15  /Leds/lcol3 /Leds/lrow5 LED		
+DB50  /Leds/lcol10 /Leds/lrow5 LED		
+DB55  /Leds/lcol11 /Leds/lrow5 LED		
+DB30  /Leds/lcol6 /Leds/lrow5 LED		
+DB551  /Leds/lcol11 /Leds/lrow5 LED		
+DB301  /Leds/lcol6 /Leds/lrow5 LED		
+DB302  /Leds/lcol6 /Leds/lrow5 LED		
+DB051  /Leds/lcol1 /Leds/lrow5 LED		
+DB101  /Leds/lcol2 /Leds/lrow5 LED		
+DB102  /Leds/lcol2 /Leds/lrow5 LED		
+DB151  /Leds/lcol3 /Leds/lrow5 LED		
+DB69  /Leds/lcol14 /Leds/lrow4 LED		
+DB041  /Leds/lcol1 /Leds/lrow4 LED		
+DB661  /Leds/lcol14 /Leds/lrow1 LED		
+DB71  /Leds/lcol1 /Leds/lrow6 LED		
+DB72  /Leds/lcol2 /Leds/lrow6 LED		
+DB73  /Leds/lcol3 /Leds/lrow6 LED		
+DB74  /Leds/lcol4 /Leds/lrow6 LED		
+DB75  /Leds/lcol5 /Leds/lrow6 LED		
+DB76  /Leds/lcol6 /Leds/lrow6 LED		
+DB77  /Leds/lcol7 /Leds/lrow6 LED		
+DB78  /Leds/lcol8 /Leds/lrow6 LED		
+DB79  /Leds/lcol9 /Leds/lrow6 LED		
+DB80  /Leds/lcol10 /Leds/lrow6 LED		
+DB81  /Leds/lcol11 /Leds/lrow6 LED		
+DB82  /Leds/lcol12 /Leds/lrow6 LED		
+DB83  /Leds/lcol13 /Leds/lrow6 LED		
+DB84  /Leds/lcol14 /Leds/lrow6 LED		
+* Sheet Name: /usb_type_c/
+Rd1  Net-_J1-PadA5_ GND 5.1k		
+Rd2  GND Net-_J1-PadB5_ 5.1k		
+J1  GND VCC Net-_J1-PadA5_ /usb_type_c/D+ /usb_type_c/D- VCC GND GND VCC Net-_J1-PadB5_ /usb_type_c/D+ /usb_type_c/D- VCC GND GND TYPE_C_2		
+
+.end

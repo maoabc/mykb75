@@ -65,9 +65,9 @@ Wire Wire Line
 	6300 5250 6300 4100
 Wire Wire Line
 	6300 4100 6050 4100
-Text HLabel 5150 5200 3    60   Input ~ 0
+Text HLabel 5150 5200 3    60   Output ~ 0
 D+
-Text HLabel 5600 5300 3    60   Input ~ 0
+Text HLabel 5600 5300 3    60   Output ~ 0
 D-
 Wire Wire Line
 	5150 5200 5150 5150
