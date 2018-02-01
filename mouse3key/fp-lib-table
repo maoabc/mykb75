@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name mx1a)(type KiCad)(uri /home/mao/mykb75/lib/mx1a.pretty)(options "")(descr ""))
+  (lib (name connectors)(type KiCad)(uri /home/mao/mykb75/lib/connectors.pretty)(options "")(descr ""))
+  (lib (name hole)(type KiCad)(uri /home/mao/mykb75/lib/hole.pretty)(options "")(descr ""))
+)

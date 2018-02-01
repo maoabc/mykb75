@@ -689,15 +689,15 @@ $EndComp
 Text Notes 9450 8000 0    60   ~ 0
 only rightmost position\nleft and center are\nhandled by the controller
 Text HLabel 1150 3050 0    60   Input ~ 0
-lrow1
-Text HLabel 1150 3950 0    60   Input ~ 0
 lrow2
-Text HLabel 1150 4600 0    60   Input ~ 0
+Text HLabel 1150 3950 0    60   Input ~ 0
 lrow3
-Text HLabel 1150 5750 0    60   Input ~ 0
+Text HLabel 1150 4600 0    60   Input ~ 0
 lrow4
-Text HLabel 1150 6650 0    60   Input ~ 0
+Text HLabel 1150 5750 0    60   Input ~ 0
 lrow5
+Text HLabel 1150 6650 0    60   Input ~ 0
+lrow6
 Text HLabel 2050 1050 1    60   Input ~ 0
 lcol1
 Text HLabel 2600 1050 1    60   Input ~ 0
@@ -905,7 +905,7 @@ F 3 "" H 9400 2400 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text HLabel 1050 1900 0    60   Input ~ 0
-lrow6
+lrow1
 Wire Wire Line
 	4650 3050 4650 3450
 Wire Wire Line
