@@ -13,7 +13,7 @@ EELAYER 25 0
 EELAYER END
 $Descr User 16535 12598
 encoding utf-8
-Sheet 2 4
+Sheet 2 3
 Title ""
 Date "2018-01-12"
 Rev ""
